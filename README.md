@@ -62,3 +62,5 @@ CREATE TABLE ADDRESS_CONTACTS_ALT(
    PRIMARY KEY(id_addr_cont),
    FOREIGN KEY (fk_id_cont) REFERENCES CONTACTS(id_cont)
 );
+
+Use the example.csv to test in the app!
